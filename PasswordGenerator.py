@@ -36,7 +36,6 @@ def generatePassword ():
     return password
 
 def main():
-    for i in range (100000):
-        print(generatePassword())
+    print(generatePassword())
     
 main()
